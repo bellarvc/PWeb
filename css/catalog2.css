@@ -1,0 +1,148 @@
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+    }
+
+    .pro-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .pro {
+      flex-basis: calc(33.33% - 20px);
+      margin: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+      transition: transform 0.3s;
+    }
+    
+    .pro:hover {
+      transform: translateY(-5px);
+    }
+    
+    .pro img {
+      width: 25%;
+      height: 50%;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    
+    .pro h2 {
+      margin-top: 0;
+      font-size: 18px;
+    }
+    
+    .pro p {
+      margin-bottom: 5px;
+    }
+    
+    .pro button {
+      background-color: #333;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+    
+    .pro button:hover {
+      background-color: #555;
+    }
+
+    /* style.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.pro {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.pro img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.item-content {
+    flex-grow: 1;
+}
+
+.item-content h3 {
+    margin-top: 0;
+}
+
+.item-content p {
+    margin-bottom: 10px;
+}
+
+.item-content button {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
